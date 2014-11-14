@@ -28,7 +28,7 @@ void loop() {
 
 
 		if(a == 1 && b == 1 ){
-			digitalWrite(RightMotorA, LOW);	digitalWrite(RightMotorB, LOW);
+			digitalWrite(RightMotorA, LOW);		digitalWrite(RightMotorB, LOW);
 			digitalWrite(LeftMotorA, LOW);		digitalWrite(LeftMotorB, LOW);
 		}
 		else if(a == 0 && b == 0){
@@ -36,32 +36,33 @@ void loop() {
 			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
 		}
 		else if(a == 1 && b == 0){
+			digitalWrite(RightMotorA,HIGH);		digitalWrite(RightMotorB, LOW);
 			digitalWrite(LeftMotorA, LOW);		digitalWrite(LeftMotorB, HIGH);
-			digitalWrite(RightMotorA, LOW);	digitalWrite(RightMotorB, LOW);
-			
+
 		}
 		else if(a == 0 && b == 1){
-			digitalWrite(RightMotorA, LOW);	digitalWrite(RightMotorB, HIGH);
-			digitalWrite(LeftMotorA, LOW);		digitalWrite(LeftMotorB, LOW);
+			digitalWrite(RightMotorA, LOW);		digitalWrite(RightMotorB, HIGH);
+			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
+
 		}
 		
 }
 
-	if(a == 1 && b == 1){
-			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
-			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
-		}
-		if(a == 0 && b == 0){
-			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
-			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
-		}
-		if(a == 1 && b == 0){
-			digitalWrite(RightMotorA, LOW);	digitalWrite(RightMotorB, HIGH);
-			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
-		}
-		if(a == 0 && b == 1){
-			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
-			digitalWrite(LeftMotorA, LOW);		digitalWrite(LeftMotorB, HIGH);
-		}
-}
+// 	if(a == 1 && b == 1){
+// 			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
+// 			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
+// 		}
+// 		if(a == 0 && b == 0){
+// 			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
+// 			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
+// 		}
+// 		if(a == 1 && b == 0){
+// 			digitalWrite(RightMotorA, LOW);	digitalWrite(RightMotorB, HIGH);
+// 			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
+// 		}
+// 		if(a == 0 && b == 1){
+// 			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
+// 			digitalWrite(LeftMotorA, LOW);		digitalWrite(LeftMotorB, HIGH);
+// 		}
+// }
 
