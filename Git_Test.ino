@@ -48,21 +48,3 @@ void loop() {
 		
 }
 
-// 	if(a == 1 && b == 1){
-// 			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
-// 			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
-// 		}
-// 		if(a == 0 && b == 0){
-// 			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
-// 			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
-// 		}
-// 		if(a == 1 && b == 0){
-// 			digitalWrite(RightMotorA, LOW);	digitalWrite(RightMotorB, HIGH);
-// 			digitalWrite(LeftMotorA, HIGH);		digitalWrite(LeftMotorB, LOW);
-// 		}
-// 		if(a == 0 && b == 1){
-// 			digitalWrite(RightMotorA, HIGH);	digitalWrite(RightMotorB, LOW);
-// 			digitalWrite(LeftMotorA, LOW);		digitalWrite(LeftMotorB, HIGH);
-// 		}
-// }
-
